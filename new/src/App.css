@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+}
+body {
+  /* background-color: rgba(15, 20, 25, 0.9); */
+  background-color: rgb(25, 33, 51);
+  /* background-color: #141635; */
+}
+.search {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #030a20;
+  justify-content: space-between;
+}
+.search h2 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.search form {
+  border-bottom: 2px solid white;
+}
+.search form input {
+  padding: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.search form i {
+  color: white;
+  cursor: pointer;
+}
+.nav_bt {
+  display: flex;
+}
+.nav_bt button {
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+  outline: none;
+}
+.nav_bt button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  background-color: #091424;
+  margin: 20px 50px;
+  border-radius: 10px;
+  padding: 50px;
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    rgba(0, 0, 0, 0.2),
+    rgba(255, 255, 255, 0.1)
+  );
+}
+.banner .hero span {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #333;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.hero {
+  color: white;
+  width: 60%;
+}
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play .title_movie {
+  margin-left: 5px;
+  background-color: transparent;
+  color: #92b31c;
+}
+.play_dit {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.play_dit :hover {
+  color: white;
+  cursor: pointer;
+}
+
+.play .play_dit p {
+  margin: 0px 10px;
+}
+.hero h2 {
+  margin-top: 10px;
+}
+.hero p {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.7);
+  width: 70%;
+}
+.hero .tag {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0px;
+}
+.hero i {
+  font-size: 1.5rem;
+}
+.poster_banner {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  opacity: 1;
+}
+.poster_banner img {
+  width: 100%;
+}
+.poster_banner:hover {
+  opacity: 0.7;
+}
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie_poster {
+  border-radius: 3px;
+  margin: 15px;
+  background-color: #0a1d3a;
+  box-shadow: 3px 3px 50px 3px rgba(0, 0, 0, 0.9);
+  /* transition: 0.5s ease-in-out; */
+  transition: transform 450ms;
+}
+.movie_poster:hover {
+  transform: scale(1.08);
+}
+.movie_discription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.movie_discription h4 {
+  color: rgba(255, 255, 255, 0.8);
+  width: 130px;
+}
+.poster {
+  width: 260px;
+  overflow: hidden;
+  height: 300px;
+}
+.poster img {
+  width: 100%;
+  height: 300px;
+}
+
+.movie_discription i {
+  font-size: 1.8rem;
+  color: white;
+}
+.movie_discription i:hover {
+  color: #92b31c;
+}
+.movie_discription span {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  color: rgb(209, 206, 12);
+  font-weight: bold;
+}
+
+.movie_poster:hover {
+  cursor: pointer;
+}
+.footer {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 50px;
+  padding: 50px 100px 20px;
+}
+.footer input {
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 50%;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.footer button {
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+.footer button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.user_footer img {
+  margin-left: 20px;
+  width: 30px;
+}
+.owner {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.video {
+  color: white;
+}
+.login {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 100px auto;
+  width: 300px;
+  padding: 30px 25px;
+  border-radius: 20px;
+}
